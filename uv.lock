@@ -2495,6 +2495,7 @@ name = "personal-gpt-free"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "certifi" },
     { name = "chromadb" },
     { name = "docx2txt" },
     { name = "fastapi" },
@@ -2517,6 +2518,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "certifi", specifier = ">=2026.7.22" },
     { name = "chromadb", specifier = "==1.5.9" },
     { name = "docx2txt", specifier = "==0.9" },
     { name = "fastapi", specifier = "==0.136.3" },
